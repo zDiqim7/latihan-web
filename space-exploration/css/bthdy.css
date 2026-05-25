@@ -1,0 +1,267 @@
+body {
+  font-family: "Happy Monkey", system-ui;
+  color: #F0E7D5;
+  background-color: #181e32;
+  background: linear-gradient(#394f83, rgb(154, 164, 182));
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 1500px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/** idk is it still neded 
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+**/
+.gradient {
+  background: linear-gradient(90deg, #212842, #F0E7D5);
+
+  background-clip: text;
+  /*standard */
+  -webkit-background-clip: text;
+  /* safari */
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.emoji {
+  -webkit-text-fill-color: initial;
+  background: none;
+  color: initial;
+}
+
+.sonetto-pp {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: none;
+  /* moved border to wrapper for gradient */
+}
+
+.gradient-border {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 6px;
+  /* thickness of the gradient "border" */
+  background: linear-gradient(90deg, #212842, #F0E7D5);
+  /* keeps the gradient visible as a rounded ring around the image */
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+/** lebih baik make target css langsung di banding 
+    buat class underline di <span> html nya, cara seperti
+    ini lebih effective dan rapi **/
+h1 {
+  text-shadow: 0px 0px 2px rgb(174, 188, 230);
+}
+
+h3 {
+  margin: auto;
+  padding: 40px;
+}
+
+#bday-age {
+  background: #313d68;
+  padding: 5px 10px;
+  border-radius: 3px;
+  margin: 25px 0px 10px 0px;
+  /* atas kanan bawah kiri
+                                  1px  1px   1px   1px, for shorthand tecnique */
+}
+
+#bday-date {
+  margin: 0;
+  background: #313D68;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.card-svg {
+  margin-top: 55px;
+  width: 500px;
+  height: 400px;
+}
+
+.card-body {
+  fill: #4c3cbe;
+}
+
+.card-ribbon,
+.card-line {
+  fill: gold;
+}
+.card-svg:hover .card-body {
+  fill: #7066e5;
+}
+.card-svg:hover .card-ribbon,
+.card-svg:hover .card-line {
+  fill: orange;
+}
+.card-svg {
+  transition: transform 0.3s ease;
+}
+.card-svg:hover {
+  transform: scale(1.1);
+}
+.gift-svg {
+  margin-top: 55px;
+  background: linear-gradient(90deg, #4ab8d0, #4c30be);
+}
+
+/* Interactive card/gift styles */
+#card-wrapper {
+  display: inline-block;
+  cursor: pointer;
+  perspective: 1000px;
+}
+#card-svg-element {
+  transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transform-origin: center bottom;
+}
+
+#card-wrapper:hover #card-svg-element {
+  transform: scale(1.1);
+}
+
+/* Full Page Celebration Overlay */
+#celebration-overlay {
+  position: fixed;
+  inset: 0;
+  /* Full screen */
+  background: rgba(24, 30, 50, 0.85);
+  /* Semi-transparent dark background */
+  backdrop-filter: blur(8px);
+  /* Glassmorphism effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+#celebration-overlay.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.celebration-content {
+  background: linear-gradient(135deg, #ffffff, #f0e7d5);
+  color: #313d68;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  max-width: 90%;
+  width: 600px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+  transform: scale(0.8);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+#celebration-overlay.visible .celebration-content {
+  transform: scale(1);
+}
+
+.celebration-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #4c3cbe;
+  text-shadow: none;
+  /* Removed text effects as requested */
+}
+
+.celebration-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  color: #313d68;
+}
+
+.click-hint {
+  font-size: 0.9rem !important;
+  color: #666 !important;
+  margin-top: 2rem;
+  opacity: 0.7;
+}
+/* Base cleanup for spans if any remain */
+span {
+  text-shadow: none !important;
+  text-decoration: none !important;
+}
+* {
+  box-sizing: border-box;
+}
+
+.end-section {
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: 1fr 6px 1fr;
+  height: 220px;
+  background: #0f2343; /* biar kontras */
+  border-radius: 5vh;
+}
+.left,
+.right {
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#gifs-button,
+#page-button {
+  background: linear-gradient(90deg, #181e32, #2d4975);
+  border: 2px solid #d5bb88;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 800;
+  margin: 4px 2px;
+  padding: 8px 0 10px 0;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.divider {
+  background: rgb(159, 167, 199);
+}
+@media (max-width: 800px) {
+  .layout {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 4px auto;
+  }
+
+  .divider {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#footer {
+  width: 400px;
+  margin: 40px auto 20px;
+  font-style: italic;
+  color: #1b2452;
+}
+a {
+  color: #43495e;
+}

@@ -1,0 +1,46 @@
+
+body {
+    background-image: url('img/train-station.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    min-height: 100px;
+}
+#increment-btn {
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #487e1f;
+    background-color: rgb(245, 241, 182);
+    cursor: pointer;
+}
+#increment-btn:hover {
+    background-color: yellow;
+}
+
+h1 {
+    color: #aee52c;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+h2 {
+    color: #487e1f;
+    font-family: 'Arial', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-style: inset;
+    border-width: 10px;
+}
+
+

@@ -1,0 +1,33 @@
+body {
+    letter-spacing: 4px;
+    background-color: #b7111b;
+    /* also the background-color: whitesmoke, with 2px
+       text shadow to make it more visible/stand out */
+    color: #ddf7fa;
+    text-align: left;
+    font-family: 'kanit', sans-serif;
+}
+.name h1{
+    font-size: 45px;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 6px -5px 5px rgb(0, 0, 0);
+    /*           horizontal > | vertical up | blur | color     */
+}
+.name h3 {
+    font-size: 25px; 
+    text-align: center;
+}
+#description {
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 600;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+#description p {
+    line-height: 1.6;
+    margin-inline-start: 39px;
+}
+.underline {
+    color: #1b79d7;
+}

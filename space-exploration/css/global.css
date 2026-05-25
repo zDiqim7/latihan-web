@@ -1,0 +1,163 @@
+/* Lets start with Background Image, - Background static img  */
+/* THIS CSS NOT ONLY CONTAINS STYLE FOR index.html but also does for GIF.html */
+
+body {
+    margin: 0;
+    color: #9bb6d3;
+    background-color: #c8240f;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#hero {
+    background-image: url("../src/Space.gif");
+    background-size: cover;
+    padding: 20px;
+}
+
+.orbitron {
+    font-family: 'Orbitron', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    text-shadow: 4px 4px black;
+}
+.orbitron--700 {
+    font-weight: 700;
+}
+
+.btn {
+    padding: 6px 12px;
+    background-color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.underline {
+    border-bottom: 4px solid white;
+    color: rgb(50, 93, 237);
+}
+
+.faq {
+    padding: 6px 12px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.terms {
+    font-size: 20px;
+    text-shadow: 3px -3px 2px rgb(17, 4, 64);
+    text-align: center;
+    margin-top: 10px;
+    padding: 50px;
+}
+/* @f*/
+
+#main-logo {
+    width: 120px;
+    white-space: inherit;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* Responsive GIF used as an <img> element */
+.space-gif {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 80vh;
+    object-fit: contain;
+}
+/* On small screens prefer contain so important areas remain visible */
+@media (max-width: 600px) {
+    body {
+        background-size: contain;
+        background-position: top center;
+    }
+}
+
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.gifs-section, .gifs-section2, .gifs-section3, .gifs-section4, .gifs-section5 {
+    margin: 50px auto;
+    max-width: 900px;
+    padding: 0 20px;
+    text-align: center;
+}
+.gifs-title {
+    font-weight: 700;
+    margin: 20px auto;
+}
+.gifs-hint {
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.gifs-img {
+    background-image: url("../src/gift-wrapper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 6px solid #a89bca;
+    border-radius: 13px;
+    margin: 0px auto;
+}
+#gifs-img-hppy:hover {
+    background-image: url("../src/happy.gif");
+}
+#gifs-img-react:hover {
+    background-image: url("../src/reaction.gif");
+}
+#gifs-img-dnc-with-me:hover {
+    background-image: url("../src/dance-with-me.gif");
+}
+#gifs-img-genius:hover {
+    background-image: url("../src/oftb.gif");
+}
+#gifs-img-cheers:hover {
+    background-image: url("../src/cheers.gif");
+}
+#gifs-img-cheers {
+    height: 200px;
+}
+.end {
+    margin: 150px auto;
+    max-width: 600px;
+    padding: 0 20px;
+    font-family: 'happy monkey', system-ui;
+}
+#back-button {
+    padding: 10px 20px;
+    background-color: #b0a6d4;
+    color: rgb(90, 22, 22);
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'happy monkey', system-ui;
+    font-weight: 700;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+#back-button:hover {
+    background-color: #8c79b8;
+}

@@ -1,0 +1,174 @@
+/* * {} */
+                          /* guide > #F3F0E7  | main/center #c2d8c4 */
+.dynapuff {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.fredoka {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}    
+body {
+    margin: 0 auto;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #D8C3A5; 
+    font-family: "Fredoka", system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* Hero */
+.hero {
+  background-image: url(images/bundaran.jpg);
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-color: 2px solid cyan;
+}
+.hero-text {
+  margin: 120px;
+  min-height: 480px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  text-shadow: darkblue;
+}
+.hero-text h1 {
+  color: #fff;
+  padding: 6px 8px 6px 8px;
+  background-color: rgb(77, 118, 207);
+  border-radius: 6px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.hero-text p{
+  color: white;
+  background-color: rgb(36, 36, 129);
+  padding: 6px 6px 6px 6px;
+  border-radius: 6px;
+}
+
+/* Main - Group img */
+.main {
+  background-color: #c2d8c4;
+  padding: 40px 20px;
+  margin: 0 auto;
+  max-width: 1200px;
+  border-radius: 10px;
+}
+.main h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 32px;
+  color: #2A2529;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+.activities {
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  text-align: center;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  flex: 0 1 200px;
+}
+.main img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.activity h4 {
+  color: #2A2529;
+  font-size: 18px;
+  margin: 8px 0;
+  font-weight: 600;
+}
+.activity h4 a {
+  color: #5a7c8a;
+  text-decoration: none;
+}
+.activity h4 a:hover {
+  text-decoration: underline;
+}
+.activity p {
+  color: #3d3d3d;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+  background-color: #F3F0E7;
+  padding: 40px 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 600px;
+  background: rgb(170, 206, 246);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+.guide-pp {
+  flex-shrink: 0;
+}
+
+.guide-pp img {
+  width: 140px;
+  height: 140px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 3px solid hsl(109, 66%, 87%);
+}
+
+.box h2 {
+  color: #2A2529;
+  font-size: 24px;
+  margin: 0 0 8px 0;
+}
+#text2 {
+  color: #5a7c8a;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 12px 0;
+}
+#text3 {
+  color: #2A2529;
+  font-size: 16px;
+  margin: 0;
+}
