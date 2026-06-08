@@ -1,6 +1,6 @@
 # latihan-web 🚀
 
-Tempat latihan dan dokumentasi perjalanan belajar Web Development saya — dari dasar hingga praktek. Fokus utama: HTML5, CSS3, dan JavaScript modern (Vanilla JS). Proyek ini masih on progress, jadi expect update rutin ✨
+Tempat latihan dan dokumentasi perjalanan belajar Web Development saya — dari dasar hingga praktek. Fokus utama: HTML5, CSS3, dan JavaScript modern (Vanilla JS). Proyek ini masih on progress, jadi expect update rutin ✨, so the recap should contains somehitng like: what i've learm, the short information, intro & outro, etc
 
 ---
 
@@ -15,7 +15,7 @@ Tempat latihan dan dokumentasi perjalanan belajar Web Development saya — dari 
 
 ## Deskripsi singkat
 
-Latihan ini berisi kumpulan proyek kecil dan tantangan yang saya gunakan untuk mempelajari dasar-dasar pengembangan web: struktur halaman, styling responsif, interaksi DOM, dan pola dasar JavaScript. Tujuannya untuk meningkatkan skill lewat praktek langsung.
+Latihan ini berisi kumpulan proyek kecil dan tantangan yang saya gunakan untuk mempelajari dasar-dasar pengembangan web: struktur halaman, styling responsif, interaksi DOM, dan pola dasar JavaScript. Tujuannya untuk meningkatkan skill lewat praktek langsung, this include latihan web gw sendiri, task from freecodecamp, and the documentation of my learning with the odin project.
 
 ---
 
