@@ -1,0 +1,144 @@
+:root {
+  --primary: #bab43c;
+  --secondary: #de750c;
+  --bg: #171001;
+  --text-color: #f5efef;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: var(--secondary);
+  padding: 1rem;
+}
+.nav .nav-links {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.nav .nav-links a {
+  color: var(--text-color);
+  background-color: var(--bg);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav .nav-title {
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-weight: bold;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.content {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.recipes-container {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
+
+.content-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.content-cards:hover {
+  transform: translateY(-5px);
+}
+
+.content-cards h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.content-cards h3 a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.content-cards h3 a:hover {
+  color: var(--secondary);
+}
+
+.content-cards img {
+  width: 100%;
+  max-width: 400px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.content-cards p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-color);
+  max-width: 400px;
+}
+
+.about {
+  background-color: var(--secondary);
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-color);
+  padding: 2rem;
+}
+.about p {
+  padding: 1rem;
+}
+.tambahan {
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 0.8rem;
+  font-weight: 100;
+  color: #9a9696;
+}
+
+/* Tablet: 2 columns */
+@media (min-width: 768px) {
+  .recipes-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Desktop: 2 columns */
+@media (min-width: 1024px) {
+  .recipes-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
