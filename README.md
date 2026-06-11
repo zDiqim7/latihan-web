@@ -18,17 +18,6 @@ Tempat latihan dan dokumentasi perjalanan belajar Web Development saya — dari 
 Latihan ini berisi kumpulan proyek kecil dan tantangan yang saya gunakan untuk mempelajari dasar-dasar pengembangan web: struktur halaman, styling responsif, interaksi DOM, dan pola dasar JavaScript. Tujuannya untuk meningkatkan skill lewat praktek langsung, this include latihan web gw sendiri, task from freecodecamp, and the documentation of my learning with the odin project.
 
 this include latihan web gw sendiri, task from freecodecamp, and the documentation of my learning with the odin project
-
----
-
-## Struktur Folder
-
-- latihan-web/
-├─ src/img/
-│  ├─ images.jpg
-├─ the-html-file.html/
-└─ script/
-   ├─ index.js
   
 ---
 
@@ -74,13 +63,6 @@ Beberapa hal yang sudah saya pelajari dan praktikkan:
 - Accessibility awareness (label, alt text) — masih belajar ♿
 
 Proyek masih berjalan — banyak fitur kecil dan refactor yang akan datang. Lihat folder `docs/` untuk catatan belajar dan referensi.
-
----
-
-## Screenshot (placeholder)
-
-![Screenshot contoh](./assets/screenshot.png)
-Ganti path gambar dengan yang sesuai jika ingin menampilkan capture actual dari latihanmu.
 
 ---
 
