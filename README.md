@@ -21,23 +21,26 @@ this include latihan web gw sendiri, task from freecodecamp, and the documentati
 
 ---
 
-## Daftar Isi / Struktur Folder
+## Struktur Folder
 
-> (Isi folder berikut sesuai dengan latihan yang sudah kamu buat. Contoh placeholder:)
-
-- 01-landing-page/ - Basic responsive landing page
-- 02-calculator-js/ - Kalkulator sederhana menggunakan Vanilla JS
-- 03-todo-app/ - Todo app dengan localStorage
-- 04-business-card/ - Personal business card (challenge)
-- 05-flex-grid-exercises/ - Latihan Flexbox & CSS Grid
-- docs/ - Catatan, referensi, dan materi pendukung
-- assets/ - Gambar, screenshot, dan file statis
-
-> Tambah atau ubah nama folder sesuai projek nyata yang ada di repo.
-
+- latihan-web/
+├─ src/img/
+│  ├─ images.jpg
+├─ the-html-file.html/
+└─ script/
+   ├─ index.js
+  
 ---
 
-## Cara Menjalankan (Simple)
+## Cara Menjalankan/Preview 
+You can type the path manually on your browser
+For example, if you want to preview the Hometown page, just use the following URL:
+```
+https://zdiqim7.github.io/latihan-web/hometown/hometown.html
+```
+To acces other pages, simply replace /hometown/hometown.html with the corresponding folder name and HTML file name.
+
+or you can just run it locally but for what? kwwkwkwk
 
 1. Clone repo:
    ```bash
@@ -54,7 +57,6 @@ this include latihan web gw sendiri, task from freecodecamp, and the documentati
    - Buka file `index.html` dari folder latihan yang ingin dilihat.
    - Klik kanan → "Open with Live Server" atau klik tombol "Go Live" di pojok kanan bawah.
 
-Atau cukup buka file HTML di browser (double-click), tapi untuk fitur seperti routing history atau fetch lokal Live Server lebih nyaman.
 
 ---
 
@@ -85,12 +87,6 @@ Ganti path gambar dengan yang sesuai jika ingin menampilkan capture actual dari 
 ## Kontribusi
 
 Ini repo personal untuk latihan. Jika kamu ingin memberi saran atau PR (contoh: perbaikan dokumentasi), welcome! 🙏
-
----
-
-## Lisensi
-
-Default: untuk keperluan belajar dan portofolio pribadi. Jika ingin, kamu bisa tambahkan lisensi seperti `MIT`.
 
 ---
 
