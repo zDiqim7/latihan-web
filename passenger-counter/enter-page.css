@@ -1,14 +1,27 @@
-
 body {
     background-image: url('img/train-station.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
-    min-height: 100px;
 }
-#increment-btn {
+
+
+.wrapper {
     display: block;
     margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    overflow: hidden;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex: 1;
+}
+
+#increment-btn, #save-btn {
+    display: block;
+    margin: 1rem auto 0 auto;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -23,6 +36,9 @@ body {
     cursor: pointer;
 }
 #increment-btn:hover {
+    background-color: yellow;
+}
+#save-btn:hover {
     background-color: yellow;
 }
 
